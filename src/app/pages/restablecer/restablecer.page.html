@@ -1,0 +1,37 @@
+<ion-header no-border>
+    <div class="login-header ion-padding">
+        <img class="logo-img" src="assets/icon/duocuc.jpg">
+    </div>
+</ion-header>
+
+<ion-content>
+
+    <div class="center">
+        <div heading-column-1r>
+            <h1 big-heading class="ion-text-center">𝚁𝚎𝚜𝚝𝚊𝚋𝚕𝚎𝚌𝚎𝚛 𝙲𝚘𝚗𝚝𝚛𝚊𝚜𝚎𝚗̃𝚊</h1>
+        </div>
+        <ion-label>
+            𝖠𝗉𝗅𝗂𝖼𝖺𝖼𝗂𝗈́𝗇 𝖬𝗈́𝗏𝗂𝗅 𝖢𝗋𝖾𝖺𝖽𝖺 𝗉𝖺𝗋𝖺 𝗅𝖺 𝖠𝗌𝗂𝗌𝗍𝖾𝗇𝖼𝗂𝖺 𝖽𝖾 𝗇𝗎𝖾𝗌𝗍𝗋𝗈𝗌 𝖠𝗅𝗎𝗆𝗇𝗈𝗌...
+        </ion-label>
+        <ion-item transparent>
+            <img icon-small src="assets/icon/usuario.png" />
+            <ion-input [(ngModel)]="user" placeholder="Usuario" type="text"></ion-input>
+        </ion-item>
+        <ion-item transparent>
+            <img icon-small src="assets/icon/cerradura.png" />
+            <ion-input [(ngModel)]="password" placeholder="Contraseña" type="password"></ion-input>
+        </ion-item>
+        <ion-item transparent>
+            <img icon-small src="assets/icon/cerradura.png" />
+            <ion-input [(ngModel)]="passwordnew" placeholder="Repetir Constraseña" type="password"></ion-input>
+        </ion-item>
+
+        <div linespace></div>
+        <ion-button color="primary" class="ion-button-class" shape="round" fill="solid" size="large" expand="block" (click)="siguiente()" (click)="confirmar()" (click)="Validar()">𝙲𝙾𝙽𝙵𝙸𝚁𝙼𝙰𝚁</ion-button>
+        <ion-label class="ion-text-center">¿𝗬𝗮 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻𝗮 𝗰𝘂𝗲𝗻𝘁𝗮 𝗖𝗿𝗲𝗮𝗱𝗮?<a routerLink="/iniciosesion">Iniciar Sesion</a></ion-label>
+
+
+    </div>
+
+
+</ion-content>

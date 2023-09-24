@@ -1,0 +1,101 @@
+{
+    "users": [{
+            "id": 1,
+            "name": "Noah Ferre"
+        },
+        {
+            "id": 2,
+            "name": "Mireia Cabello"
+        },
+        {
+            "id": 3,
+            "name": "Maria Blanca Manrique"
+        },
+        {
+            "id": 4,
+            "name": "Jesus Angel Pellicer"
+        },
+        {
+            "id": 5,
+            "name": "Micaela Rosell"
+        },
+        {
+            "id": 6,
+            "name": "Pablo Santos"
+        }
+    ],
+    "posts": [{
+            "userId": 1,
+            "id": 1,
+            "title": "Pedir Favor",
+            "message": "¡Hola! ¿Te puedo pedir un favor? ..."
+        },
+        {
+            "userId": 2,
+            "id": 2,
+            "title": "Pedir Tarea",
+            "message": "¡Hola! Te queria preguntar sobre la tarea de ayer..."
+        },
+        {
+            "userId": 3,
+            "id": 3,
+            "title": "Juntar para Trabajo",
+            "message": "¡Hola! Compañero, ¿a que hora nos juntamos?..."
+        },
+        {
+            "userId": 4,
+            "id": 4,
+            "title": "Unirte a Grupo",
+            "message": "¡Hola! Te queria preguntar si quieres ser de nuestro grupo..."
+        },
+        {
+            "userId": 6,
+            "id": 6,
+            "title": "Reflexion Sobre una Clase",
+            "message": "Estubo muy buena la clase, aprendi bastante y tu?..."
+        }
+    ],
+    "ramos": [{
+            "idAsignatura": "01",
+            "seccion": "003D",
+            "asignatura": "Arquitectura",
+            "docente": "Hernan Saavedra",
+            "correo": "di.ordenesf@duocuc.cl"
+        },
+        {
+            "idAsignatura": "02",
+            "seccion": "003D",
+            "asignatura": "Calidad de Software",
+            "docente": "Carolina Alicia",
+            "correo": "di.ordenesf@duocuc.cl"
+        },
+        {
+            "idAsignatura": "03",
+            "seccion": "004D",
+            "asignatura": "Estadistica Descriptiva",
+            "docente": "Claudio Ibaceta",
+            "correo": "di.ordenesf@duocuc.cl"
+        },
+        {
+            "idAsignatura": "04",
+            "seccion": "003D",
+            "asignatura": "Etica para el Trabajo",
+            "docente": "Maria Loreto",
+            "correo": "di.ordenesf@duocuc.cl"
+        },
+        {
+            "idAsignatura": "05",
+            "seccion": "004D",
+            "asignatura": "Ingles Intermedio",
+            "docente": "Paola Loreto",
+            "correo": "di.ordenesf@duocuc.cl"
+        },
+        {
+            "idAsignatura": "06",
+            "seccion": "003D",
+            "asignatura": "Programacion de Aplicaciones Moviles",
+            "docente": "Nancy Bernal",
+            "correo": "di.ordenesf@duocuc.cl"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+<ion-header no-border>
+    <div class="login-header ion-padding">
+        <img class="logo-img" src="assets/icon/duocuc.jpg">
+    </div>
+</ion-header>
+<ion-content [fullscreen]="true">
+    <ion-card>
+        <ion-card-header>
+            <ion-title>Alumno</ion-title>
+        </ion-card-header>
+        <ion-item>
+            <ion-select placeholder="Seleccione Alumno" [(ngModel)]="user">
+                <ion-select-option *ngFor="let usu of users" [value]="usu">{{usu.name}}</ion-select-option>
+            </ion-select>
+        </ion-item>
+    </ion-card>
+    <br>
+    <ion-card>
+        <ion-card-header>
+            <ion-title>Crear un Mensaje</ion-title>
+        </ion-card-header>
+        <ion-item class="ion-padding-horizontal">
+            <ion-label position="floating">Titulo</ion-label>
+            <ion-input [(ngModel)]="post.title"></ion-input>
+        </ion-item>
+        <ion-item class="ion-padding-horizontal">
+            <ion-label position="floating">Mensaje</ion-label>
+            <ion-textarea [(ngModel)]="post.message"></ion-textarea>
+        </ion-item>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <ion-button shape="round" expand="block">Limpiar</ion-button>
+                </ion-col>
+                <ion-col>
+                    <ion-button shape="round" expand="block" (click)="guardarPost()">Enviar</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-card>
+    <ion-card>
+        <ion-list-header>
+            <ion-title>Mensajes Recientes...</ion-title>
+        </ion-list-header>
+        <ion-list>
+            <ion-item *ngFor="let post of posts">
+                <ion-label>
+                    <h4>{{post.title}}</h4>
+                    <p>{{post.message}}</p>
+                </ion-label>
+                <ion-button (click)="eliminarMensajes(post.id)">
+                    <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+                </ion-button>
+            </ion-item>
+        </ion-list>
+    </ion-card>
+    <div class="button-cerrar">
+        <ion-button color="warning " (click)="Volver()">Volver</ion-button>
+    </div>
+</ion-content>

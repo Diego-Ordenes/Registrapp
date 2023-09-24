@@ -1,0 +1,35 @@
+<ion-header no-border>
+    <div class="login-header ion-padding">
+        <img Class="logo-img" src="assets/icon/duocuc.jpg">
+    </div>
+</ion-header>
+
+<ion-content>
+
+    <div class="center">
+        <div heading-column-1r>
+            <h1 big-heading class="ion-text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝚁𝚎𝚐𝚒𝚜𝚝𝚛𝚊𝚝𝚎</h1>
+        </div>
+        <ion-item transparent>
+            <img icon-small src="assets/icon/usuario.png" />
+            <ion-input [(ngModel)]="user" placeholder="Username" type="text"></ion-input>
+        </ion-item>
+        <ion-item transparent>
+            <img icon-small src="assets/icon/email.png" />
+            <ion-input [(ngModel)]="email" placeholder="Email" type="email"></ion-input>
+        </ion-item>
+        <ion-item transparent>
+            <img icon-small src="assets/icon/cerradura.png" />
+            <ion-input [(ngModel)]="password" placeholder="Password" type="password"></ion-input>
+        </ion-item>
+
+        <ion-label class="forget-password">¿𝗬𝗮 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻𝗮 𝗰𝘂𝗲𝗻𝘁𝗮 𝗖𝗿𝗲𝗮𝗱𝗮?-<a href="/iniciosesion"> IniciarSesion</a></ion-label>
+
+        <div linespace></div>
+
+        <ion-button color="primary" class="ion-button-class" shape="round" fill="solid" size="large" expand="block" (click)="Validar()" (click)="togleBoton()" name="button" type="button">𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝗿</ion-button>
+        <ion-label class="ion-text-center">𝖠𝗅 𝗉𝗋𝖾𝗌𝗂𝗈𝗇𝖺𝗋 "𝖱𝖾𝗀𝗂𝗌𝗍𝗋𝖺𝗋", 𝖸𝖺 𝗍𝖾𝗇𝖽𝗋𝖺́𝗌 𝗎𝗇𝖺 𝖼𝗎𝖾𝗇𝗍𝖺 𝗉𝖺𝗋𝖺 𝗉𝗈𝖽𝖾𝗋 𝗏𝖾𝗋 𝗍𝗎𝗌 𝖺𝗌𝗂𝗀𝗇𝖺𝗍𝗎𝗋𝖺𝗌</ion-label>
+    </div>
+
+
+</ion-content>

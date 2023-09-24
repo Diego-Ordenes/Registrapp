@@ -1,0 +1,115 @@
+.fondo-image {
+    left: 0px;
+    top: 0px;
+    position: relative;
+}
+
+//
+.header {
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+
+//
+.title-card {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.user-name {
+    font-size: 28px;
+    margin-top: 5px;
+    color: #000;
+    text-align: center;
+}
+
+.socials {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 184, 0, 1);
+}
+
+a:hover {
+    color: #000;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block; //muestra en la misma linea
+    background-size: cover;
+}
+
+.about {
+    padding: 10px;
+}
+
+.about h3 {
+    color: #545454;
+    font-size: 20px;
+}
+
+.about p {
+    color: #545454;
+    font-size: 16px;
+}
+
+.button-cerrar {
+    text-align: center;
+    align-items: center;
+}
+
+/////////////////////////////////////////
+.login-header {
+    background: #ffffff;
+}
+
+.login-header {
+    position: relative;
+    background: rgb(219, 195, 132);
+    ;
+    border-radius: 0em;
+}
+
+.logo-img {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 6px;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #000000;
+}
+
+ion-card {
+    background-color: rgb(253, 247, 247);
+}
+
+.title-center {
+    text-align: center;
+}
+
+.modificar-logo {
+    margin-right: 10px;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}

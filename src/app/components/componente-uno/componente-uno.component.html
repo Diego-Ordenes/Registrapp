@@ -1,0 +1,30 @@
+<ion-content>
+    <div>
+        <h1 class="ion-class-button">𝐈𝐧𝐠𝐫𝐞𝐬𝐚 𝐭𝐮 𝐚𝐬𝐢𝐬𝐭𝐞𝐧𝐜𝐢𝐚</h1>
+    </div>
+    <div class="ion-class-button">
+        <ion-button (click)="levantarCam()" class="ion-button-asistencia" expand="block">
+            <ion-icon class="icon-button" name="camera-outline"></ion-icon>
+        </ion-button>
+        <ion-button (click)="Scan()" class="ion-button-asistencia" expand="block">
+            <ion-icon class="icon-button" name="qr-code-outline"></ion-icon>
+        </ion-button>
+    </div>
+
+    <h1 class="title">Mostrar Asistencia </h1>
+    <div class="container">
+        <div class="card">
+            <img src="assets/icon/Libros_2.jpg">
+            <h4>Datos Asistencia</h4>
+            <div class="container_1">
+                <p style="--l: '!H';">{{testQR}}</p>
+            </div>
+            <a href="">Leer Mass...</a>
+        </div>
+
+    </div>
+
+    <div class="button-cerrar ">
+        <ion-button color="warning " (click)="Cerrar_sesion()">𝗖𝗲𝗿𝗿𝗮𝗿 𝘀𝗲𝘀𝗶𝗼𝗻</ion-button>
+    </div>
+</ion-content>

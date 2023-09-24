@@ -1,0 +1,58 @@
+.icon-tamano {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+}
+
+.icon-tamano:hover {
+    color: rgba(255, 184, 0, 1);
+}
+
+.ion-text-center {
+    color: rgba(255, 184, 0, 1);
+    font-size: 23px;
+}
+
+.segment-uwu {
+    border: 0.5px solid rgb(25, 32, 95);
+    ;
+}
+
+.ion-title-bn {
+    color: rgba(255, 184, 0, 1);
+}
+
+ion-content {
+    img {
+        height: 60px;
+        width: 60px;
+    }
+    ion-list-header {
+        font-size: 22px;
+    }
+}
+
+ion-item {
+    h2 {
+        font-weight: 700;
+        font-size: 15px;
+        color: #010100;
+    }
+}
+
+ion-toolbar {
+    //--background: rgba(255, 184, 0, 1);
+    --background: #01162b; //#3856a8;
+    ion-segment:hover {
+        color: rgba(255, 184, 0, 1);
+    }
+}
+
+ion-title {
+    color: #ec0000;
+}
+
+.button-cerrar {
+    text-align: center;
+    align-items: center;
+}

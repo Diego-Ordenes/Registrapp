@@ -1,0 +1,32 @@
+<ion-header no-border>
+    <div class="login-header ion-padding">
+        <img class="logo-img" src="assets/icon/duocuc.jpg">
+    </div>
+</ion-header>
+
+<ion-content>
+
+    <div class="center">
+        <div heading-column-1r>
+            <h1 big-heading class="ion-text-center">𝙸𝚗𝚒𝚌𝚒𝚊𝚛 𝚂𝚎𝚜𝚒𝚘𝚗</h1>
+        </div>
+        <ion-label>
+            𝖠𝗉𝗅𝗂𝖼𝖺𝖼𝗂𝗈́𝗇 𝖬𝗈́𝗏𝗂𝗅 𝖢𝗋𝖾𝖺𝖽𝖺 𝗉𝖺𝗋𝖺 𝗅𝖺 𝖠𝗌𝗂𝗌𝗍𝖾𝗇𝖼𝗂𝖺 𝖽𝖾 𝗇𝗎𝖾𝗌𝗍𝗋𝗈𝗌 𝖠𝗅𝗎𝗆𝗇𝗈𝗌...
+        </ion-label>
+        <ion-item transparent>
+            <img icon-small src="assets/icon/usuario.png" />
+            <ion-input [(ngModel)]="usuario" placeholder="usuario" type="text"></ion-input>
+        </ion-item>
+        <ion-item transparent>
+            <img icon-small src="assets/icon/cerradura.png" />
+            <ion-input class="rescatar" [(ngModel)]="password" placeholder="password" type="password"></ion-input>
+        </ion-item>
+        <ion-label class="forget-password">¿𝗦𝗲 𝗹𝗲 𝗼𝗹𝘃𝗶𝗱𝗼 𝗹𝗮 𝗰𝗼𝗻𝘁𝗿𝗮𝘀𝗲𝗻̃𝗮?-<a href="/restablecer"> Restablecer</a></ion-label>
+
+        <div linespace></div>
+        <ion-button class="boton-3" color="primary" shape="round" fill="solid" size="large" expand="block" (click)="iniciarsesion()">𝙻𝙾𝙶𝙸𝙽</ion-button>
+        <ion-label class="ion-text-center">¿𝗖𝗿𝗲𝗮𝗿 𝘂𝗻𝗮 𝗖𝘂𝗲𝗻𝘁𝗮?-<a routerLink="/home">Registrarse</a></ion-label>
+    </div>
+    <ion-menu-button></ion-menu-button>
+
+</ion-content>

@@ -1,0 +1,163 @@
+ion-card {
+    background-color: rgb(253, 247, 247);
+}
+
+.title-credencial {
+    font-size: 16px;
+}
+
+.fondo-image {
+    left: 0px;
+    top: 0px;
+    position: relative;
+}
+
+.linea-b {
+    height: 5px;
+    width: 5px;
+    color: rgba(255, 184, 0, 1);
+}
+
+.title-info {
+    margin-bottom: -5px;
+    font-size: 13px;
+    font-family: initial;
+}
+
+.texto {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 16px;
+    font-family: initial;
+}
+
+.p-info {
+    font-size: 17px;
+    font-family: initial;
+}
+
+.p-info2 {
+    font-size: 14px;
+    font-family: initial;
+}
+
+.card-info {
+    margin-left: 14px;
+    margin-top: 10px;
+    margin-bottom: -18px;
+    margin-right: 10px;
+}
+
+.card-info_2 {
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(4, 6, 116);
+}
+
+//
+.header {
+    padding: 12px;
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: left;
+    text-align: center;
+}
+
+//
+.title-card {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.user-title {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.user-name {
+    font-size: 10px;
+    margin-top: 5px;
+    color: #000;
+    align-items: center;
+    position: relative;
+}
+
+.socials {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 184, 0, 1);
+}
+
+a:hover {
+    color: #000;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block; //muestra en la misma linea
+    background-size: cover;
+}
+
+.about {
+    padding: 10px;
+}
+
+.about h3 {
+    color: #545454;
+    font-size: 20px;
+}
+
+.about p {
+    color: #545454;
+    font-size: 16px;
+}
+
+.button-cerrar {
+    text-align: center;
+    align-items: center;
+}
+
+/////////////////////////////////////////
+.login-header {
+    background: #ffffff;
+}
+
+.login-header {
+    position: relative;
+    background: rgb(219, 195, 132);
+    ;
+    border-radius: 0em;
+}
+
+.logo-img {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 6px;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #000000;
+}

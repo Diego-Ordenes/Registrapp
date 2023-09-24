@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="ion-title-bn" class="ion-text-center">𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍𝚘 {{usuario}} </ion-title>
+        <p>{{usuario}}</p>
+    </ion-toolbar>
+    <ion-toolbar>
+        <!-- Default Segment -->
+        <ion-segment (ionChange)="segmentChanged($event)">
+            <ion-segment-button class="segment-uwu" value="asignatura">
+                <ion-icon class="icon-tamano" name="videocam-outline"></ion-icon>
+            </ion-segment-button>
+            <ion-segment-button class="segment-uwu" value="mensajes">
+                <ion-icon class="icon-tamano" name="card-outline"></ion-icon>
+            </ion-segment-button>
+            <ion-segment-button class="segment-uwu" value="perfil">
+                <ion-icon class="icon-tamano" name="business-outline"></ion-icon>
+            </ion-segment-button>
+        </ion-segment>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-content>
+        <ion-router-outlet></ion-router-outlet>
+    </ion-content>
